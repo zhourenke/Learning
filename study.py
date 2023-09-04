@@ -8,3 +8,6 @@ head_code.head()  # 输出占位头
 # import multi
 #
 # print(multi.result)  # 模块中的每一个变量都可以引用
+
+num_list = ["111", "222", "333", "444", "555"]
+print(num_list[1])
