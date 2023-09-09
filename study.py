@@ -11,7 +11,7 @@ head_code.head()  # 输出占位头
 # print(multi.result)  # 模块中的每一个变量都可以引用
 #
 # str_list = ["ni hao", "zai ma", "zai jian"]
-int_list = [1, 2, 234, 654, 4]
+# int_list = [1, 2, 234, 654, 4]
 # int_list.reverse()  # 反转列表数据顺序
 # print(int_list)
 # str_list.sort(key=len)  # 以 key 中参数的方式排序
@@ -22,3 +22,7 @@ int_list = [1, 2, 234, 654, 4]
 # for num_in in int_list:
 #     # 将 int_list 中的元素依次赋予变量 num_in ，并在每次赋值后执行下方代码
 #     print(num_in)
+# single_tuple = ("ni hao", )  # 单元素元组
+# print(single_tuple[0])
+# print(single_tuple.index("ni hao"))
+# print(single_tuple.count("ni hao"))
