@@ -22,7 +22,20 @@ head_code.head()  # 输出占位头
 # for num_in in int_list:
 #     # 将 int_list 中的元素依次赋予变量 num_in ，并在每次赋值后执行下方代码
 #     print(num_in)
+#
 # single_tuple = ("ni hao", )  # 单元素元组
 # print(single_tuple[0])
 # print(single_tuple.index("ni hao"))
 # print(single_tuple.count("ni hao"))
+# print(len(single_tuple))
+# id_tuple = ("园林", 18, 171)
+# print("姓名：%s\t年龄：%d\t身高：%.2f" % id_tuple)
+# # 格式化字符串后面的括号本质上就是元组
+# all_in_one = "姓名：%s\t年龄：%d\t身高：%.2f" % id_tuple
+# print(all_in_one)  # 括号内的所有东西可以看做是一个变量
+# just_is_a_list = [123, 234, 345]
+# print(type(just_is_a_list))
+# just_is_a_list = tuple(just_is_a_list)  # 将列表转换为元组
+# print(type(just_is_a_list))
+# just_is_a_list = list(just_is_a_list)  # 将元组转换为列表
+# print(type(just_is_a_list))
